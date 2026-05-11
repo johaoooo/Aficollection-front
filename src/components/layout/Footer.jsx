@@ -100,13 +100,13 @@ export default function Footer() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10">
 
-          {/* Colonne logo — plus large */}
+          {/* Colonne logo — avec logo.png */}
           <div className="lg:col-span-4">
             <Link to="/" className="inline-block mb-5">
               <img
-                src="/lo.svg"
+                src="/logo.png"
                 alt="AFI Collection"
-                className="h-12 w-auto object-contain brightness-0 invert"
+                className="h-14 w-auto object-contain"
               />
             </Link>
             <p className="text-white/40 text-sm leading-relaxed mb-6 max-w-xs">

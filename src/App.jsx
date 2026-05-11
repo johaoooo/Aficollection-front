@@ -20,7 +20,7 @@ export default function App() {
   return (
     <HelmetProvider>
       <BrowserRouter>
-        <div className="bg-[#D1FAE5] dark:bg-[#064E3B] min-h-screen">
+        <div className="bg-[#D1FAE5] dark:bg-gradient-to-br dark:from-[#1A1A1A] dark:to-[#0a2e1a] min-h-screen">
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />

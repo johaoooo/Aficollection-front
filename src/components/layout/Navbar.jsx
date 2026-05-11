@@ -61,11 +61,11 @@ export default function Navbar() {
 
   // Couleur des icônes plus contrastée
   const getIconColor = (active = false) => {
-    if (active) return '#008753'
+    if (active) return '#E8112D'
     return darkMode ? '#0a3b28' : '#1f2937' // Plus foncé que le texte pour mieux voir
   }
 
-  const getActiveTextColor = () => '#008753'
+  const getActiveTextColor = () => '#E8112D'
   const getHoverBg = () => darkMode ? 'rgba(0, 135, 83, 0.15)' : 'rgba(0, 0, 0, 0.05)'
 
   useEffect(() => {

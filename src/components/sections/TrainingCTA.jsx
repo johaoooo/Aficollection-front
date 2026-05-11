@@ -4,7 +4,7 @@ import { Needle, ArrowRight, WhatsappLogo, GraduationCap, Clock, Users, Star } f
 
 export default function TrainingCTA() {
   return (
-    <section className="py-20 bg-gradient-to-br from-[#1A1A1A] to-[#0a2e1a] text-white relative overflow-hidden">
+    <section className="py-20 bg-white dark:bg-gradient-to-br dark:from-[#1A1A1A] dark:to-[#0a2e1a] text-white relative overflow-hidden">
       
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-40 h-40 rounded-full bg-[#008753] blur-3xl" />
